@@ -1,0 +1,116 @@
+*{
+   padding: 0;
+   margin: 0;
+   
+ }
+ form{
+    margin-left: 5%;
+    margin-top: 15%;
+    margin-right: auto;
+    margin-bottom: 25%;
+ }
+ .form-control
+ {
+      margin:0 5px;
+      margin:5px 0; 
+ }
+ 
+ .heading{
+   border: 1px black solid ;
+    background-color:rgb(13, 177, 141);
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 20px; 
+    font-weight: bolder;
+    padding-top: 10px;
+    position: fixed;
+  
+    top: 0;
+    
+  
+ }
+
+
+ .footing{
+    background-color:rgb(13, 177, 141);
+    position: fixed;
+    
+    border: 1px black solid ;
+    bottom: 0;
+    width: 100%;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+ }
+ 
+
+ table{
+   
+      margin-left:auto;
+      margin-right: auto;
+      margin-top: 20%;
+      margin-bottom: 60%;
+   
+ }
+ table th{
+   padding: 5px;
+   background-color:white;
+   color: black;
+   font-size: 20px;
+   font-weight:500;
+   
+ }
+ table td{
+   padding-bottom: 15px;
+   padding-left: 10px;
+   padding-right: 10px;
+   padding-top: 5px;
+   border: 1.5px solid yellowgreen 	;
+ }
+
+ tr:nth-child(odd) { 
+   background-color:rgb(233, 255, 190);
+} 
+ 
+td{
+  animation: fadeIn 3s;
+}
+
+@keyframes fadeIn{
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+
+.rowClass{
+   height: 100%;
+}
+ 
+ .myclass{
+   
+    margin-left: 70%;
+    margin-top: 75%;
+    height: 70%;
+    width: 2px;
+    background-color: rgb(13, 177, 141);
+   
+ }
+
+ @media only screen and (max-width: 600px) {
+  
+   .myclass{
+     display: none;
+   }
+   .hidden{
+     background-color: aqua;
+      
+     height: 2px;
+     
+   }
+   
+ }
